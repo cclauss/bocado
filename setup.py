@@ -6,7 +6,7 @@ setup(
     author = "Emma Tosch",
     author_email = "etosch@cs.umass.edu",
     packages = ["bocado"],
-    package_dir={"src/bocado"}
+    package_dir={"src/bocado"},
     package_data = {"": ["schemata/*", "protos/*"]},
     licence = "Apache 2.0"
 )

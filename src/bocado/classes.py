@@ -423,7 +423,7 @@ class ParameterizedDict(ParametricType):
       return
     self.keytags = keytags
     self.valuetags = valuetags
-    self.__name__ = to_string(self, "Dict", set(keytags, valuetags))
+    self.__name__ = self.to_string("Dict", set(keytags, valuetags))
 
   def __repr__(self):
     return "%s@%d" % (self.__name__, id(self))
